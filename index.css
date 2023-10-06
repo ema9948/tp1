@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* navbar  */
+.navbar {
+  background-color: #323b41 !important;
+}
+
+/* home  */
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/ba1.jpg");
+}
+
+/* contact  */
+.btn {
+  background-color: #96c93e !important;
+}
+
+/* footer  */
+.footer {
+  margin-top: 1%;
+  padding: 1%;
+  background-color: #1d4358 !important;
+}
