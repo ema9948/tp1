@@ -41,20 +41,26 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav me-5">
-              <a class="nav-link text-white" aria-current="page" href="#"
+              <a class="nav-link text-white" aria-current="page" href="#home"
                 >La conferencia</a
               >
-              <a class="nav-link text-white" href="#">Los oradores</a>
-              <a class="nav-link text-white" href="#">El lugar y la fecha</a>
-              <a class="nav-link text-white">Conviértete en orador</a>
-              <a class="nav-link text-success">Comprar tickets</a>
+              <a class="nav-link text-white" href="#oradores">Los oradores</a>
+              <a class="nav-link text-white" href="#lugar"
+                >El lugar y la fecha</a
+              >
+              <a class="nav-link text-white" href="#orador"
+                >Conviértete en orador</a
+              >
+              <a class="nav-link text-success" href="tickets.html"
+                >Comprar tickets</a
+              >
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main class="d-flex flex-column gap-3">
-      <section class="">
+      <section class="" id="home">
         <article class="background vh-100">
           <div class="container h-100">
             <div
@@ -82,7 +88,7 @@
         </article>
       </section>
       <section>
-        <article class="container">
+        <article class="container" id="oradores">
           <div class="row row-cols-1">
             <div class="col text-center">
               <h2 class="fs-6 fw-light">CONOCE A LOS</h2>
@@ -159,7 +165,7 @@
           </div>
         </article>
       </section>
-      <section class="">
+      <section class="" id="lugar">
         <article class="w-100 bg-dark">
           <div class="w-100 row row-cols-1 row-cols-md-2">
             <div class="col">
@@ -181,9 +187,11 @@
           </div>
         </article>
       </section>
-      <section>
+      <section id="orador">
         <article class="container">
-          <div class="row row-cols-1 gap-3">
+          <div
+            class="row row-cols-1 row-cols-xxl-2 gap-3 justify-content-xxl-center"
+          >
             <div class="col text-center">
               <h3 class="fs-6 fw-light fw-light">CONVÍERTETE EN UN</h3>
               <h2 class="fs-1">ORADOR</h2>
