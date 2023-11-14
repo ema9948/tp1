@@ -30,7 +30,7 @@
   }
 
   const descuento = (e) => {
-    const offSale = [80, 50];
+    const offSale = [80, 50, 15];
     if (e.categoria < 0) {
       Swal.fire({
         title: "Error!",
@@ -56,12 +56,11 @@
     let status = false;
     for (var key of value.keys()) {
       if (!value.get(key)) {
-        console.log(key);
         Swal.fire({
           title: "Error!",
           text: `Complete el campo " ${key.toUpperCase()} "`,
           icon: "error",
-          confirmButtonText: "Cool",
+          confirmButtonText: "Exit",
         });
         status = true;
         break;
