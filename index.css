@@ -20,7 +20,9 @@ body {
 .btn {
   background-color: #96c93e !important;
 }
-
+.btn:hover {
+  transform: scale(1.03);
+}
 /* footer  */
 .footer {
   margin-top: 1%;
